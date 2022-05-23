@@ -6,8 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\Lab3App.Extensions\Lab3App.Extensions.csproj" />
-    </ItemGroup>
-
 </Project>

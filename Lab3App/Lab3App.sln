@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3.ConsoleUi", "Lab3.Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabApp3.Infrastructure", "LabApp3.Infrastructure\LabApp3.Infrastructure.csproj", "{39766203-C465-4BFF-B738-A57B403647F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3Tests", "Lab3Tests\Lab3Tests.csproj", "{700CFAC4-CB26-4E2F-A215-327F3AEA9EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3App.Extensions", "Lab3App.Extensions\Lab3App.Extensions.csproj", "{F8DC543E-E216-44F1-BF47-777F6048690C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{39766203-C465-4BFF-B738-A57B403647F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39766203-C465-4BFF-B738-A57B403647F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39766203-C465-4BFF-B738-A57B403647F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700CFAC4-CB26-4E2F-A215-327F3AEA9EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700CFAC4-CB26-4E2F-A215-327F3AEA9EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700CFAC4-CB26-4E2F-A215-327F3AEA9EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700CFAC4-CB26-4E2F-A215-327F3AEA9EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DC543E-E216-44F1-BF47-777F6048690C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DC543E-E216-44F1-BF47-777F6048690C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DC543E-E216-44F1-BF47-777F6048690C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DC543E-E216-44F1-BF47-777F6048690C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

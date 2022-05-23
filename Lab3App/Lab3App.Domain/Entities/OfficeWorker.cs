@@ -2,12 +2,17 @@
 
 namespace Lab3App.Domain.Entities;
 
-public abstract class OfficeWorker : WorkerBase, IWorker
+public abstract class OfficeWorker : WorkerBase
 {
     protected OfficeWorker(ContactInformation contacts, Name name, string cityName, string officeAddressLine) : base(contacts, name)
     {
         this.City = cityName;
         this.OfficeAddressLine = officeAddressLine;
+    }
+
+    protected OfficeWorker() : base()
+    {
+        
     }
     
     public string City { get; set; }

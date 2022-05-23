@@ -7,15 +7,11 @@ namespace Lab3App.Application.Interfaces;
 public interface IRecordsHandlerService
 {
 
-    public int CreateRecord(UserRecordData data);
+    public Guid CreateRecord(UserRecordData data);
     
-    public void EditRecord(int id, UserRecordData data);
-    
-    public ReadOnlyCollection<IRecordSnapshot> FindByFirstName(string firstName);
-    
-    public ReadOnlyCollection<IRecordSnapshot> FindByLastName(string lastName);
+    public void EditRecord(Guid id, UserRecordData data);
 
-    public ReadOnlyCollection<IRecordSnapshot> GetRecords();
+    public void EditRecord(int orderInCurrent, UserRecordData newData);
 
     public int GetStat();
     
@@ -23,6 +19,9 @@ public interface IRecordsHandlerService
     
     public void Restore(IRecordsServiceSnapshot snapshot);
 
-    public void Remove(int id);
+    public IWorker Remove(int id);
     
+    public IWorker Remove(Guid id);
+
+    public IEnumerable<IWorker> GetWorkers();
 }

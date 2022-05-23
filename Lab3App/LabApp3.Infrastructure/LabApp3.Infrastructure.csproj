@@ -7,8 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces" />
-      <Folder Include="Models" />
+      <ProjectReference Include="..\Lab3App.Extensions\Lab3App.Extensions.csproj" />
     </ItemGroup>
 
 </Project>

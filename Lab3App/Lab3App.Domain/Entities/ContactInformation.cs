@@ -10,5 +10,4 @@ public class ContactInformation
     [Phone]
     public string Phone { get; set; }
     
-    
 }
